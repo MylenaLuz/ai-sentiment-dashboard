@@ -1,0 +1,7 @@
+FastAPI
+SQLAlchemy
+Tweepy
+Transformers
+Redis
+AnyIO
+Uvicorn
