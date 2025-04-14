@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "leaflet/dist/leaflet.css";
+import 'leaflet/dist/leaflet.css';
 
 const SentimentMap = ({ tweets }) => {
   const [leafletComponents, setLeafletComponents] = useState(null);
