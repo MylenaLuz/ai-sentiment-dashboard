@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import SentimentChart from "./components/SentimentChart";
-import SentimentMap from "./components/SentimentMap";
+// import SentimentMap from "./components/SentimentMap";
 import InsightsPanel from "./components/InsightsPanel";
 import SearchBar from "./components/SearchBar";
 import Sidebar from "./components/Sidebar";
@@ -43,8 +43,8 @@ function App() {
         <SearchBar text={text} setText={setText} count={count} setCount={setCount} analyzeSentiment={analyzeSentiment} />
         <InsightsPanel tweets={filteredTweets} />
         <SentimentChart data={filteredTweets} />
-        <SentimentMap tweets={filteredTweets} />
-      </div>
+{/* <SentimentMap tweets={filteredTweets} /> */}
+</div>
     </div>
   );
 }
